@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">デバイス設定</string>
+
+    <string name="category_screen_title">スクリーン</string>
+    <string name="touch_sensitivity_head">タッチ感度ensitivity</string>
+
+    <string name="touch_sensitivity_very_high">とても高い</string>
+    <string name="touch_sensitivity_high">高い</string>
+    <string name="touch_sensitivity_medium">普通</string>
+    <string name="touch_sensitivity_low">低い</string>
+
+    <string name="category_power_title">パワー</string>
+    <string name="power_mode_head">パワーモード</string>
+    <string name="power_mode_high">ハイパフォーマンス</string>
+    <string name="power_mode_medium">バランス(推奨)</string>
+    <string name="power_mode_low">省電力</string>
+</resources>
