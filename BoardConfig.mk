@@ -1,12 +1,12 @@
 # inherit from the proprietary version
--include vendor/acer/a700/BoardConfigVendor.mk
+-include vendor/acer/a510/BoardConfigVendor.mk
 
-TARGET_BOOTLOADER_BOARD_NAME := picasso_mf
-TARGET_OTA_ASSERT_DEVICE := picasso_mf,a700_emea_cus1
+TARGET_BOOTLOADER_BOARD_NAME := picasso_m
+TARGET_OTA_ASSERT_DEVICE := picasso_m,a510_pa_cus1
 
-TARGET_KERNEL_CONFIG := cyanogenmod_picasso_mf_defconfig
+TARGET_KERNEL_CONFIG := cyanogenmod_picasso_m_defconfig
 
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/acer/a700/bluetooth
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/acer/a510/bluetooth
 
 # Inherit from t30-common
 include device/acer/t30-common/BoardConfigCommon.mk
